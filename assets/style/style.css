@@ -1,0 +1,16 @@
+.profile-container{}
+.profile{
+    text-align: center;
+}
+#portrait{
+    display: flex;
+    height: 20%;
+    width: 20%;
+    border: none;
+    border-radius: 50%;
+    margin: auto;
+}
+main{
+    background-image: url("http://gipsypixel.com/wp-content/uploads/2017/11/Wallpaper-Hd-For-Wallpaperpiano-Music-Background-Style-Dual-Piano-Wide-Pics-Pc.jpg");
+    background-color: #
+}
