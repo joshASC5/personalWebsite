@@ -1,8 +1,17 @@
 body{
     font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
+.mdl-layout-title{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.mdl-navigation__link:hover{
+    opacity: 0.7;
+    border: 1px solid white;
+    border-radius: 8px;
+}
 .profile{
     text-align: center;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 #bg{
     position: absolute;
