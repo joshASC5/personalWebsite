@@ -9,6 +9,9 @@ body{
     border: 1px solid white;
     border-radius: 8px;
 }
+.profile-container{
+    margin-top: 5%;
+}
 .profile{
     text-align: center;
     font-family: "Trebuchet MS", Helvetica, sans-serif;
@@ -22,9 +25,25 @@ body{
 }
 #portrait{
     display: flex;
+    -ms-transform: rotate(-90deg); /* IE 9 */
+    -webkit-transform: rotate(-90deg); /* Safari 3-8 */
+    transform: rotate(-90deg);
     height: 20%;
     width: 20%;
     border: none;
     border-radius: 50%;
     margin: auto;
+}
+
+/*CSS specifically for "About" page starts here:*/
+#about-page-content-container{
+    display: flex;
+    height: 100vh;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 0.87);
+    border: 1px solid blue;
+    overflow-y: auto;
+}
+#about-page-content{
+    text-align: justify;
 }
